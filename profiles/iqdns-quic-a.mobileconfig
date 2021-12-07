@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>QUIC</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>103.254.108.74</string>
+				</array>
+				<key>ServerName</key>
+				<string>a.passcloud.xyz:784</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use IQDNS Encrypted DNS over quic</string>
+			<key>PayloadDisplayName</key>
+			<string>IQDNS over QUIC</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.C498EC0C-EF6C-44F0-BFB7-0000658B99AC</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>065AB183-5E34-4794-9BEB-B5327CF61F27</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>IQDNS加密DNS</string>
+	<key>PayloadDisplayName</key>
+	<string>IQDNS over QUIC</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>030E6D6F-69A2-4515-9D77-99342CB9AE76</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
